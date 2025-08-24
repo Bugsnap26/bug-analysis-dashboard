@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #f7f9fc;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4, h5, h6 {
+  margin: 0;
+}
+
+.list-item:hover {
+  background-color: #e3f2fd;
+  cursor: pointer;
+}
+
+.list-item-selected {
+  background-color: #1976d2;
+  color: white;
+}
